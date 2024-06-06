@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D21A5B75-B3DD-6D45-FF27-82CFCC6705FE" name="TB_REGIAO_ANIMAL">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:59:53 UTC</createdTime>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<ordsAlias>regiao_animal</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TB_ANIMAL_id_animal" id="4D411E7E-98FA-D9F8-6227-A59A1371EBB2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:59:53 UTC</createdTime>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43E93668-BEE9-8AC8-2DB8-AFF9E320DED9" referredColumn="9239B987-8BEF-2552-1966-2117DE15B5F9"/>
+</associations>
+</Column>
+<Column name="TB_REGIAO_id_regiao" id="63558811-E567-9D5B-E036-2BF3E27B5146">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:59:53 UTC</createdTime>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E0852FE-81F6-9B19-9B20-DF8EB8A60054" referredColumn="71732D4F-997D-938E-8045-8F19140FD67F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82259C0A-7D2F-B597-F30E-62A386FB7A1C" name="REGIAO_ANIMAL_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:59:53 UTC</createdTime>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D411E7E-98FA-D9F8-6227-A59A1371EBB2"/>
+<colUsage columnID="63558811-E567-9D5B-E036-2BF3E27B5146"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8587C56-3033-90A7-25B0-A7D77D99C34D" name="REGIAO_ANIMAL_TB_ANIMAL_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:59:53 UTC</createdTime>
+<generatorID>1B8054DC-317C-53D2-E888-116CBE635562</generatorID>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D411E7E-98FA-D9F8-6227-A59A1371EBB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FB52045-B7A3-AD89-3A96-F7B6AC888D3C" name="REGIAO_ANIMAL_TB_REGIAO_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:59:53 UTC</createdTime>
+<generatorID>1B8054DC-317C-53D2-E888-116CBE635562</generatorID>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63558811-E567-9D5B-E036-2BF3E27B5146"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

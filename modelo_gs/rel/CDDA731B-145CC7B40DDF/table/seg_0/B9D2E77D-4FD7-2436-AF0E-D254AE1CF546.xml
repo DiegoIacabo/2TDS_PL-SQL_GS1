@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9D2E77D-4FD7-2436-AF0E-D254AE1CF546" name="TB_ANIMAL">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:59:53 UTC</createdTime>
+<generatorID>D8AC2BF1-AB54-E402-5051-0C6C9FB5770B</generatorID>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_animal" id="9239B987-8BEF-2552-1966-2117DE15B5F9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:59:53 UTC</createdTime>
+<generatorID>55EEEC9C-0833-AA88-DFFF-33A3116D5CC1</generatorID>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_animal" id="25C93A2A-533D-C6FB-89D1-2D663025D0B9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:59:53 UTC</createdTime>
+<generatorID>6ADDF20F-D15F-02F8-6FDE-459568C863EE</generatorID>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="epoca_reproducao" id="82646084-F6CE-10E5-261F-196AEAFF5860">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:59:53 UTC</createdTime>
+<generatorID>88ECFA13-4F28-96A3-BE46-D5DEBC65359F</generatorID>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="epoca_pesca" id="A4098CCB-B14C-C415-1B6E-59EABB9E1ACD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:59:53 UTC</createdTime>
+<generatorID>1E443113-F823-615F-3A9E-7674D7762E06</generatorID>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qtd_permitida" id="9BE1C766-8819-441F-9ECD-24D9477DDE85">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:59:53 UTC</createdTime>
+<generatorID>0978DB06-1B8B-4040-C9D3-0E826534B8CB</generatorID>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9FE2207C-6928-1EF0-CEA8-B1B78E13B8F6" name="TB_ANIMAL_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:59:53 UTC</createdTime>
+<generatorID>924716BE-4C06-C374-14C2-EE734D04EE4A</generatorID>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9239B987-8BEF-2552-1966-2117DE15B5F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

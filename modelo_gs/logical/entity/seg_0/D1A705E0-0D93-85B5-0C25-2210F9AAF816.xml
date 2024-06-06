@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D1A705E0-0D93-85B5-0C25-2210F9AAF816" name="TB_ATIVIDADE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:52:16 UTC</createdTime>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<engineerTo>
+<item key="CDDA731B-0D12-408F-7545-145CC7B40DDF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_atividade" id="5978C82B-C026-3A4B-E604-A5D421BDA323">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:52:24 UTC</createdTime>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<engineerTo>
+<item key="CDDA731B-0D12-408F-7545-145CC7B40DDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="local" id="9570AAA9-80C2-B8AE-36CF-1C2E923027A8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:52:41 UTC</createdTime>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<engineerTo>
+<item key="CDDA731B-0D12-408F-7545-145CC7B40DDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="local_final" id="B7147933-036E-A91F-3F20-C957A9E442DB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:54:10 UTC</createdTime>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<engineerTo>
+<item key="CDDA731B-0D12-408F-7545-145CC7B40DDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="inicio" id="A6456A9B-DD57-A439-3300-E16C565BB686">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:54:23 UTC</createdTime>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<engineerTo>
+<item key="CDDA731B-0D12-408F-7545-145CC7B40DDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fim" id="F104C714-10BE-13EB-4698-A3C0BFA8F2BF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:54:52 UTC</createdTime>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<engineerTo>
+<item key="CDDA731B-0D12-408F-7545-145CC7B40DDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pescador" id="9E06FAE2-AAFE-1D1B-A680-142E34364569">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:59:38 UTC</createdTime>
+<generatorID>9C61BA82-D256-B841-D901-4B9069281069</generatorID>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<engineerTo>
+<item key="CDDA731B-0D12-408F-7545-145CC7B40DDF" value="true"/>
+</engineerTo>
+<referedAttribute>AC54EB82-8689-F04B-4C1D-250E5F12F00D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A7754E37-BE27-8928-BBAF-1AF86B291CF5" name="TB_ATIVIDADE PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:52:40 UTC</createdTime>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<engineerTo>
+<item key="CDDA731B-0D12-408F-7545-145CC7B40DDF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5978C82B-C026-3A4B-E604-A5D421BDA323</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FF68A33-D5A7-0CD2-0DB9-A4FDFF964BC4" name="TB_ATIVIDADE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:59:53 UTC</createdTime>
+<generatorID>D1A705E0-0D93-85B5-0C25-2210F9AAF816</generatorID>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_atividade" id="652F74F0-D135-65B9-27BF-F0C7E76956B6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:59:53 UTC</createdTime>
+<generatorID>5978C82B-C026-3A4B-E604-A5D421BDA323</generatorID>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="local_inicial" id="2E37EB68-2DCC-0D68-B7DC-A8D8AE3E066A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:59:53 UTC</createdTime>
+<generatorID>9570AAA9-80C2-B8AE-36CF-1C2E923027A8</generatorID>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="local_final" id="59598D55-262F-9570-116C-58D328CA359E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:59:53 UTC</createdTime>
+<generatorID>B7147933-036E-A91F-3F20-C957A9E442DB</generatorID>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="inicio" id="4946E19C-EFF0-9ADB-DE47-DB3BF2EEC738">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:59:53 UTC</createdTime>
+<generatorID>A6456A9B-DD57-A439-3300-E16C565BB686</generatorID>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fim" id="9D44DD2D-11A2-9112-CD11-11FD1AA62984">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:59:53 UTC</createdTime>
+<generatorID>F104C714-10BE-13EB-4698-A3C0BFA8F2BF</generatorID>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_PESCADOR_id_pescador" id="41E444BB-0937-66E3-1D0A-B18C5242EB31">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:59:53 UTC</createdTime>
+<generatorID>9E06FAE2-AAFE-1D1B-A680-142E34364569</generatorID>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D361C5F0-05A1-0520-60AC-5720030454EE" referredColumn="3B272E21-95F4-F64B-5161-E07A15E15EE2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C61850FE-A724-74C8-74EF-D1E1BB0D0344" name="TB_ATIVIDADE_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:59:53 UTC</createdTime>
+<generatorID>A7754E37-BE27-8928-BBAF-1AF86B291CF5</generatorID>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="652F74F0-D135-65B9-27BF-F0C7E76956B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96463976-4BC5-2047-8F47-3299A56C58A0" name="TB_ATIVIDADE_TB_PESCADOR_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:59:53 UTC</createdTime>
+<generatorID>9C61BA82-D256-B841-D901-4B9069281069</generatorID>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41E444BB-0937-66E3-1D0A-B18C5242EB31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

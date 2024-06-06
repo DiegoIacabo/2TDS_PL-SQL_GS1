@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8AC2BF1-AB54-E402-5051-0C6C9FB5770B" name="TB_ANIMAL">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:55:24 UTC</createdTime>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<engineerTo>
+<item key="CDDA731B-0D12-408F-7545-145CC7B40DDF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_animal" id="55EEEC9C-0833-AA88-DFFF-33A3116D5CC1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:55:36 UTC</createdTime>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<engineerTo>
+<item key="CDDA731B-0D12-408F-7545-145CC7B40DDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_animal" id="6ADDF20F-D15F-02F8-6FDE-459568C863EE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:56:03 UTC</createdTime>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<engineerTo>
+<item key="CDDA731B-0D12-408F-7545-145CC7B40DDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="epoca_reproducao" id="88ECFA13-4F28-96A3-BE46-D5DEBC65359F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:56:26 UTC</createdTime>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<engineerTo>
+<item key="CDDA731B-0D12-408F-7545-145CC7B40DDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="epoca_pesca" id="1E443113-F823-615F-3A9E-7674D7762E06">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:56:53 UTC</createdTime>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<engineerTo>
+<item key="CDDA731B-0D12-408F-7545-145CC7B40DDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qtd_permitida" id="0978DB06-1B8B-4040-C9D3-0E826534B8CB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:57:09 UTC</createdTime>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<engineerTo>
+<item key="CDDA731B-0D12-408F-7545-145CC7B40DDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="924716BE-4C06-C374-14C2-EE734D04EE4A" name="TB_ANIMAL PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:56:02 UTC</createdTime>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<engineerTo>
+<item key="CDDA731B-0D12-408F-7545-145CC7B40DDF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>55EEEC9C-0833-AA88-DFFF-33A3116D5CC1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

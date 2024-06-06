@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D361C5F0-05A1-0520-60AC-5720030454EE" containerWithKeyObject="8FF68A33-D5A7-0CD2-0DB9-A4FDFF964BC4" localFKIndex="96463976-4BC5-2047-8F47-3299A56C58A0" name="TB_ATIVIDADE_TB_PESCADOR_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:59:53 UTC</createdTime>
+<generatorID>9C61BA82-D256-B841-D901-4B9069281069</generatorID>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<referredTableLongName>TB_PESCADOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E54E205A-7AB4-542D-2511-EB9BA2C385D3</referredTableID>
+<keyObject>7581340A-00DE-BC36-9B0E-D48B1E1C6555</keyObject>
+<referredKeyID>7581340A-00DE-BC36-9B0E-D48B1E1C6555</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pescador</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

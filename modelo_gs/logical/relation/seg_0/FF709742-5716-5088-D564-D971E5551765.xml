@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PESCADOR_LICENCA" directorySegmentName="seg_0" id="FF709742-5716-5088-D564-D971E5551765">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:59:11 UTC</createdTime>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<engineerTo>
+<item key="CDDA731B-0D12-408F-7545-145CC7B40DDF" value="true"/>
+</engineerTo>
+<sourcePk>685E071A-FBFF-EE70-D605-48276B12E07B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7ABEB706-A448-7772-7332-89E9583D812B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>B1645CB8-23DF-E77A-14BE-1E807D594AF1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REGIAO_ANIMAL" directorySegmentName="seg_0" id="1B8054DC-317C-53D2-E888-116CBE635562">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-06 12:58:35 UTC</createdTime>
+<ownerDesignName>modelo_gs</ownerDesignName>
+<engineerTo>
+<item key="CDDA731B-0D12-408F-7545-145CC7B40DDF" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D8AC2BF1-AB54-E402-5051-0C6C9FB5770B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8B8D5697-E997-2A42-EFFE-B5EE51D9A295</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
